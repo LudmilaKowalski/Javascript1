@@ -3,25 +3,15 @@ let name= readlineSync.question("Whats your favorite series ?");
 let prod= readlineSync.question("When she was product ? ");
 let who= readlineSync.question("Who played in this series ?");
 */
-
-const readlineSync = require("readline-sync");
-
-
-function askTvSerie() {
-    return a + b + c 
+var Animal = 'Giraffe';
+switch (Animal) {
+  case 'Cow':
+  case 'Giraffe':
+  case 'Dog':
+  case 'Pig':
+    console.log('This animal is not extinct.');
+    break;
+  case 'Dinosaur':
+  default:
+    console.log('This animal is extinct.');
 }
-
-const serie = readlineSync.question("Whats your favorite series ?");
-const date = readlineSync.question("When she was product ? ");
-const actor = readlineSync.question("Who played in this series ?");
-const object = { Name: serie, Production: date, Actor: actor  };
-
-console.log(object);
-
-
-
-/*
-const readlineSync = require("readline-sync");
-(() => {
-    
-    let n = readlineSync.question("Whats your name ?");
