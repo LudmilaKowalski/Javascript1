@@ -22,4 +22,12 @@
 
     // your code here
 
+
+const filteredArray = fruits.filter(function(ele , pos){
+    return fruits.indexOf(ele) == pos;
+}) 
+
+console.log("The filtered array ",filteredArray);
+
+
 })();
