@@ -5,4 +5,11 @@
 
     // your code here
 
+    let passone = document.getElementById("pass-one");
+
+    
+
+    passone.size = 10;
+    passone.maxLength = 10;
+
 })();
