@@ -4,6 +4,6 @@
 
 Just some kind of exercice with Javascript
 
-## Techno
+## Techno
 
 Javascript
